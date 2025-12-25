@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Home_For_Paws.js/",
+    "build": "vite build --base=/Home_For_Paws/",
     "preview": "vite preview"
   },
   "devDependencies": {
