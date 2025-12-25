@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/lapky-junior.js/",
+    "build": "vite build --base=/Home_For_Paws.js/",
     "preview": "vite preview"
   },
   "devDependencies": {
