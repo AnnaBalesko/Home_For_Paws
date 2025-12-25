@@ -1,0 +1,194 @@
+/* ===== Success Stories Section ===== */
+
+.success-stories {
+  background-color: #ffffff;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* Title block */
+.stories-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.success-stories__title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #02060a;
+}
+
+.success-stories__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #02060a;
+}
+
+.swiper-wrapper{
+  margin-bottom: 40px;
+}
+
+/* Card */
+.story-card {
+  width: 100%;
+}
+
+/* Rating */
+.story-rating {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.story-rating svg,
+.story-rating img
+{
+  display: block;
+  width: 20px;
+  height: 19px;
+  stroke: #02060a;
+}
+
+.story-rating .raty-star-off{
+  opacity: 0.3;
+}
+
+/* Text */
+.story-text {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 1.5;
+
+}
+
+.story-author {
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+/* ===== Slider Controls ===== */
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Pagination dots */
+.slider-pagination {
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #cfcfcf;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #1c1c1c;
+  width: 11px;
+  height: 11px;
+}
+
+/* Buttons */
+.slider-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.slider-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+
+  border: 1px solid #c3b49d;
+  border-radius: 8px;
+  background-color: #eee9e3;
+
+  cursor: pointer;
+}
+
+.slider-icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #1c1c1c;
+}
+
+.slider-btn:hover {
+  background-color: transparent;
+}
+
+.slider-btn:hover .slider-icon {
+  stroke: #02060a;
+}
+
+.slider-btn.is-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* ===== Swiper ===== */
+
+.success-stories-swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+/* ===== Tablet ≥ 768px ===== */
+@media (min-width: 768px) {
+  .success-stories__title {
+    font-size: 36px;
+  }
+
+}
+
+/* ===== Desktop ≥ 1440px ===== */
+@media (min-width: 1440px) {
+  .success-stories{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .story-rating {
+  margin-bottom: 32px;
+}
+
+  .success-stories__title {
+    font-size: 48px;
+  }
+
+  .success-stories__subtitle {
+    font-size: 18px;
+  }
+
+  .story-text {
+    font-size: 20px;
+  }
+
+  .story-author {
+    font-size: 16px;
+  }
+
+}
